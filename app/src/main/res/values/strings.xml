@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Pendamping Hidupmu</string>
+    <string name="introPendamping">Pendamping Hidupmu Adalah</string>
+    <string name="judul">Masukkan Jumlah Pemasukan dan Pengeluaran</string>
+    <string name="pemasukan">Pemasukan (Rp.)</string>
+    <string name="pengeluaran">Pengeluaran (Rp.)</string>
+    <string name="hint_orang">Masukkan jumlah orang berkunjung</string>
+    <string name="mode_gelap">Dark Mode</string>
+    <string name="totalButton">Hitung Total</string>
+</resources>
