@@ -17,4 +17,7 @@
     <string name="kategori_x">Kategori: %1$s</string>
     <string name="lihat_saran">Lihat Saran</string>
     <string name="saran_aja">Pertahankan keuanganmu, karena hidup boros tidak akan pernah menjadi kaya</string>
+    <string name="tentang_aplikasi">Tentang Aplikasi</string>
+    <string name="copyright">Pendamping Hidupmu adalah aplikasi Android untuk menghitung pemasukan dan pengeluaran
+     seseorang sehingga orang tersebut dapat berhemat.\n\nAplikasi ini dibuat untuk mengikuti Asessment 2 Mobpro 1 </string>
 </resources>

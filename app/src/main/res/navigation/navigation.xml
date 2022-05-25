@@ -13,6 +13,9 @@
         <action
             android:id="@+id/action_hitungFragment_to_saranFragment2"
             app:destination="@id/saranFragment2" />
+        <action
+            android:id="@+id/action_hitungFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
     </fragment>
     <fragment
         android:id="@+id/saranFragment2"
@@ -23,5 +26,11 @@
             android:name="kategori"
             app:argType="com.d3ifcool44.pendaminghidupmu.model.KategoriPH" />
     </fragment>
+
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.d3ifcool44.pendaminghidupmu.ui.AboutFragment"
+        android:label="AboutFragment"
+        tools:layout="@layout/fragment_about"/>
 
 </navigation>
