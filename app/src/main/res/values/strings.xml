@@ -7,4 +7,14 @@
     <string name="hint_orang">Masukkan jumlah orang berkunjung</string>
     <string name="mode_gelap">Dark Mode</string>
     <string name="totalButton">Hitung Total</string>
+    <string name="boros">BOROS</string>
+    <string name="hemat">HEMAT</string>
+    <string name="pelit">PELIT</string>
+    <string name="judul_boros">Ciri orang yang boros</string>
+    <string name="saran_boros">Cara agar tidak boros</string>
+    <string name="judul_hemat">Ciri orang yang  Hemat</string>
+    <string name="saran_kurus">Saran agar hemat</string>
+    <string name="kategori_x">Kategori: %1$s</string>
+    <string name="lihat_saran">Lihat Saran</string>
+    <string name="saran_aja">Pertahankan keuanganmu, karena hidup boros tidak akan pernah menjadi kaya</string>
 </resources>

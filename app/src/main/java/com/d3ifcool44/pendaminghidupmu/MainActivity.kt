@@ -2,40 +2,21 @@ package com.d3ifcool44.pendaminghidupmu
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.text.TextUtils
-import android.widget.CompoundButton
-import android.widget.Toast
-import androidx.lifecycle.MutableLiveData
-import com.d3ifcool44.pendaminghidupmu.databinding.ActivityMainBinding
-import com.google.android.material.switchmaterial.SwitchMaterial
+import androidx.navigation.NavController
+import androidx.navigation.findNavController
+import androidx.navigation.ui.NavigationUI
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityMainBinding
+    private lateinit var navController: NavController
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
 
-        binding = ActivityMainBinding.inflate(layoutInflater)
-        setContentView(binding.root)
-
-        binding.buttonTotal.setOnClickListener { hitungUang() }
+        navController = findNavController(R.id.myNavHostFragment)
+        NavigationUI.setupActionBarWithNavController(this, navController)
     }
-
-    private fun hitungUang() {
-        val pemasukan = binding.uangMasuk.text.toString()
-        if (TextUtils.isEmpty(pemasukan)) {
-            Toast.makeText(this, "Harus Di isi", Toast.LENGTH_LONG).show()
-            return
-        }
-        val pengeluaran = binding.uangKeluar.text.toString()
-        if (TextUtils.isEmpty(pengeluaran)) {
-            Toast.makeText(this, "Harus Di Isi", Toast.LENGTH_LONG).show()
-            return
-
-
-        }
-
-    }
+    override fun onSupportNavigateUp(): Boolean
+    { return navController.navigateUp() }
 }
-
